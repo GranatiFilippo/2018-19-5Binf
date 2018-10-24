@@ -26,6 +26,8 @@ import javax.swing.*;
 
 public class Main extends JFrame {
 	
+	//ciao sono tuo padre
+	
 	public Main() {
 		super("Project X");
 		super.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
@@ -51,7 +53,7 @@ public class Main extends JFrame {
 		
 		sb.append("</div>");
 		sb.append("</html>");
-		
+	
 		// convert string builder to string when done with string manipulation
 		String htmlText = sb.toString();
 		
